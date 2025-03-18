@@ -20,8 +20,9 @@ const TestimonialData = [
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
     img: "https://picsum.photos/104/104",
   },
+
   {
-    id: 5,
+    id: 4,
     name: "ሃዊ አ",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
     img: "https://picsum.photos/103/103",
@@ -29,6 +30,12 @@ const TestimonialData = [
   {
     id: 5,
     name: "ኬና ረ",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    img: "https://picsum.photos/103/103",
+  },
+  {
+    id: 6,
+    name: "ሃሱ ሙል",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
     img: "https://picsum.photos/103/103",
   },

@@ -5,7 +5,7 @@ import Services from "./Components/Services/Services";
 import Banner from "./components/Banner/Banner.jsx";
 import AppStore from "./components/AppStore/AppStore.jsx";
 import Testimonials from "./components/Testimonial/Testimonial.jsx";
-// import Footer from "./components/Footer/Footer.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 import AOS from "aos";
 import "aos/dist/aos.css";
 const App = () => {
@@ -28,7 +28,7 @@ const App = () => {
       <Banner />
       <AppStore />
       <Testimonials />
-      {/* <Footer /> */}
+      <Footer />
       
     </div>
   )
