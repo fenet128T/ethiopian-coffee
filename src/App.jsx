@@ -1,7 +1,7 @@
 import React  from 'react'
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./Components/Home/Home";
-// import Services from "./components/Services/Services.jsx";
+import Services from "./Components/Services/Services";
 // import Banner from "./components/Banner/Banner.jsx";
 // import AppStore from "./components/AppStore/AppStore.jsx";
 // import Testimonials from "./components/Testimonials/Testimonials.jsx";
@@ -24,8 +24,8 @@ const App = () => {
     <div className='overflow-x-hidden'>
       <Navbar />
       <Home />
-      {/* <Services />
-      <Banner />
+      <Services />
+      {/* <Banner />
       <AppStore />
       <Testimonials />
       <Footer /> */}

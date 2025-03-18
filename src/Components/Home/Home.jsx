@@ -1,5 +1,4 @@
 import React from "react";
-// import HeroPng from "../../assets/coffee2.png";
 import coffee from "../../assets/website/ቡና -photoroom.png"
 const Home = () => {
   return (
