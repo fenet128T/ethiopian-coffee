@@ -1,20 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 @keyframes spin {
-  0% {
-    transform: translateX(-10px);
+  from {
+    transform: rotate(0deg);
   }
-  50% {
-    transform: translateX(20px);
-  }
-  100% {
-    transform: translateX(-10px);
+  to {
+    transform: rotate(360deg);
   }
 }
-.spin:hover {
-  animation: spin 5s linear infinite;
-  transform: translateX(10px);
+.spin {
+  animation: spin 40s linear infinite;
 }

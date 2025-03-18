@@ -39,7 +39,7 @@ const Home = () => {
                 data-aos-once="true"
                 src={coffee}
                 alt="biryani img"
-                className="w-[300px] sm:w-[450px] sm:scale-125 mx-auto spin "
+                className="w-[300px] sm:w-[450px] sm:scale-125 mx-auto "
               />
               <div
                 data-aos="fade-left"
