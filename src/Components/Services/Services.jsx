@@ -4,7 +4,7 @@ const ServicesData = [
   {
     id: 1,
     img: Img2,
-    name: "Espresso",
+    name: "የሸቤ ቡና",
     description:
       "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet.",
     aosDelay: "100",
@@ -12,7 +12,7 @@ const ServicesData = [
   {
     id: 2,
     img: Img2,
-    name: "Americano",
+    name: "የሊሙ ቡና",
     description:
       "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet",
     aosDelay: "300",
@@ -20,7 +20,7 @@ const ServicesData = [
   {
     id: 3,
     img: Img2,
-    name: "Cappuccino",
+    name: "ጥቁር ቡና",
     description:
       "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet",
     aosDelay: "500",
@@ -32,7 +32,7 @@ const Services = () => {
       <span id="services"></span>
       <div className="py-10">
         <div className="container">
-          {/* አገልግሎቶች */}
+          {/* header  */}
           <div className="text-center mb-20">
             <h1 className="text-4xl font-bold font-cursive text-gray-800">
               ምርጥ ቡና ለእናንተ

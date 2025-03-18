@@ -2,7 +2,7 @@ import React  from 'react'
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./Components/Home/Home";
 import Services from "./Components/Services/Services";
-// import Banner from "./components/Banner/Banner.jsx";
+import Banner from "./components/Banner/Banner.jsx";
 // import AppStore from "./components/AppStore/AppStore.jsx";
 // import Testimonials from "./components/Testimonials/Testimonials.jsx";
 // import Footer from "./components/Footer/Footer.jsx";
@@ -25,8 +25,8 @@ const App = () => {
       <Navbar />
       <Home />
       <Services />
-      {/* <Banner />
-      <AppStore />
+      <Banner />
+      {/* <AppStore />
       <Testimonials />
       <Footer /> */}
       
